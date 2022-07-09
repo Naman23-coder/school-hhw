@@ -1,4 +1,4 @@
-<!--copyright Naman Sharma-->
+//copyright Naman Sharma
 
 
 function slide2(){
