@@ -4,7 +4,9 @@
 function slide2(){
     document.getElementById("first_img").src = "images/goldentemple.jpg"
     document.getElementById("first_p").innerText = "This dazzling temple is the holy seat of the Sikhs all over the world. It is popularly known as the Golden Temple or the Durbar Sahib. The Holy Granth Sahib is kept here and the gold-plated temple has stunning copper domes and a body of pristine white marble. The motifs have Islamic influence and the floral patterns are intricate and exquisite. The place is very calm and serene and although the daily footfall is very high, everyone maintains discipline and offers their prayers with utmost serenity. If you are in search of inner peace, this is perhaps one of the few places in the world where you may end up finding it. The temple complex is very clean and visitors are requested to maintain the hygiene of the place. Everyone should enter the temple complex with their head covered. The langar of the temple feeds about a million people every single day and is run entirely by volunteers. Within the temple complex, you must also visit the Hari Mandir, Amrit Sarovar, and the Central Sikh Museum."
-    console.log(current);
+    document.getElementById("next").onclick = function () {location.href = "index.html"
+
+    }
 }
 
 function main() {
